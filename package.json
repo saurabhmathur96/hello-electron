@@ -1,0 +1,21 @@
+{
+  "name": "hello-electron",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "main.js",
+  "scripts": {
+    "build": "node bundle.js && node build.js"
+  },
+  "build": {
+    "appId": "saurabhmathur96.hello"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-builder": "^10.7.0",
+    "electron": "^1.4.12"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
